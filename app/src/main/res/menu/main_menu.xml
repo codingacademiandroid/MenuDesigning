@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="SAVE"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/Edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="EDIT"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Call"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="CALL"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/Camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="CAMERA"
+        app:showAsAction="never" />
+
+
+</menu>
